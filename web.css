@@ -2,7 +2,7 @@
 
 /* Body text scales with screen size, but stays readable */
 body {
-  font-size: clamp(32px, 4vw, 64px);
+  font-size: clamp(24px, 4vw, 64px);
 }
 
 /* Heading that grows more on large screens */
