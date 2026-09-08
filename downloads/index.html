@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Downloads</title>
+<style>
+  body {
+    font-family: -apple-system, Segoe UI, Arial, sans-serif;
+    background: #f7f7f8;
+    margin: 0;
+    padding: 40px 20px;
+    color: #222;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .item {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 16px;
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  .item:hover {
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+  }
+  .item img {
+    max-width: 100%;
+    height: 120px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  .item p {
+    margin: 0;
+    font-size: 14px;
+    word-break: break-word;
+  }
+  .item span {
+    display: block;
+    font-size: 12px;
+    color: #888;
+    margin-top: 4px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Downloads</h1>
+
+<div class="gallery">
+
+  <!-- Repeat one block like this per image -->
+  <a class="item" href="images/logo-full-color.svg" download>
+    <img src="PXL_20260417_172428192.jpg" alt="Full color logo">
+    <p>Full Color Logo</p>
+    <span>SVG</span>
+  </a>
+
+  <a class="item" href="images/logo-white.svg" download>
+    <img src="images/logo-white.svg" alt="White logo">
+    <p>White Logo</p>
+    <span>SVG</span>
+  </a>
+
+  <a class="item" href="images/logo-black.png" download>
+    <img src="images/logo-black.png" alt="Black logo">
+    <p>Black Logo</p>
+    <span>PNG</span>
+  </a>
+
+</div>
+
+</body>
+</html>
 
